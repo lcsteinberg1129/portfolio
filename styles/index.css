@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#welcome-section{
+  margin: 0 auto;
+  min-height: 55vh;
+  background-color: #E1BEE7;
+  position: relative;
+}
+#navbar{
+  background-color: #E1BEE7;
+  width: 100%;
+  height: 13%;
+  position: fixed;
+/*   top:30px; */
+}
+#navbar>ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+/*   width: 30%; */
+  position: absolute;
+  right: 20px;
+  width: 30%;
+  margin-top: 3%;
+  align-items: right;
+  justify-content: space-between;
+}
+#navbar>ul>li>a {
+  text-decoration: none;
+  color: rgba(0,0,0,.6);
+  transition: all .5s;
+}
+#navbar>ul>li>a:hover{
+  color: #683894;
+}
+
+#intro{
+  padding:45vh 0;
+  text-align: center;
+  color: #3a115f;
+}
+h1{
+  margin:0;
+}
+#intro>p{
+  font-size: 1.3em;
+  margin: 5px;
+}
+
+#projects-section{
+  margin:0 auto;
+  background-color: #fff;
+  text-align: center;
+  color: #880E4F;
+}
+#projects-section>p{
+  margin-top: 40px;
+  font-size: 1.3em;
+}
+#projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project{
+  text-decoration: none;
+  color: #880E4F;
+  display: inline-block;
+  overflow: hidden;
+  border: 3px solid #E1BEE7;
+  height: 220px;
+  width: 310px;
+  margin: 30px 30px;
+  padding: 10px;
+}
+.project-pic{
+  width: 100%;
+  height: 180px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #E1BEE7;
+}
+
+#contact{
+  background-color: #55198b;
+  margin:0;
+  text-align: center;
+  padding-bottom: 40px;
+  min-height: 20vh;
+  padding-top: 10vh;
+}
+#contact>p{
+  margin:0;
+  font-size: 1.3em;
+  padding-bottom: 20px;
+  color: #E1BEE7;
+}
+
+#contact-info>a{
+  box-sizing: border-box;
+  font-size: 3em;
+  width: 20%;
+  text-decoration: none;
+  color: #E1BEE7;
+  transition: all .5s;
+}
+#contact-info>a:hover{
+  color: rgba(225,190,231, .5);
+
+}
+
+
+@media only screen and (max-width: 600px){
+  #navbar> ul{
+    width: 90%;
+    margin-top: 6%;
+  }
+}
