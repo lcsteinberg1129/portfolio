@@ -61,9 +61,10 @@ h1{
   background-color: #fff;
   text-align: center;
   color: #880E4F;
+  margin-bottom: 60px;
 }
 #projects-section>p{
-  margin-top: 40px;
+  margin-top: 60px;
   font-size: 1.3em;
 }
 #projects{
@@ -79,7 +80,7 @@ h1{
   border: 3px solid #E1BEE7;
   height: 220px;
   width: 310px;
-  margin: 30px 30px;
+  margin: 10px 30px;
   padding: 10px;
 }
 .project-pic{
