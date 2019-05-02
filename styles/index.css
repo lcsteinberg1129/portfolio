@@ -60,7 +60,7 @@ h1{
   margin:0 auto;
   background-color: #fff;
   text-align: center;
-  color: #880E4F;
+  color: #3a115f;
   margin-bottom: 60px;
 }
 #projects-section>p{
@@ -74,7 +74,7 @@ h1{
 }
 .project{
   text-decoration: none;
-  color: #880E4F;
+  color: #3a115f;
   display: inline-block;
   overflow: hidden;
   border: 3px solid #E1BEE7;
